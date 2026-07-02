@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:ies.marichi.energy",
+  "verificationMethod": [{
+    "id": "did:web:ies.marichi.energy#key-1",
+    "type": "JsonWebKey2020",
+    "controller": "did:web:ies.marichi.energy",
+    "publicKeyJwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "3JK8uPxRWSwvINXRRIfQc8Dyk8JdWRZk7cnAhRIvisU",
+      "y": "Ky9wztCOzfDPsEab5PdUD3gsYwFmrMaviFkP5U51b3I"
+    }
+  }],
+  "authentication": ["did:web:ies.marichi.energy#key-1"],
+  "assertionMethod": ["did:web:ies.marichi.energy#key-1"],
+  "service": [{
+    "id": "did:web:ies.marichi.energy#beckn",
+    "type": "BecknSubscriber",
+    "serviceEndpoint": "https://api.marichi.energy/beckn"
+  }]
+}
