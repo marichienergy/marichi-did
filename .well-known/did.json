@@ -11,8 +11,8 @@
     "publicKeyJwk": {
       "kty": "EC",
       "crv": "P-256",
-      "x": "3JK8uPxRWSwvINXRRIfQc8Dyk8JdWRZk7cnAhRIvisU",
-      "y": "Ky9wztCOzfDPsEab5PdUD3gsYwFmrMaviFkP5U51b3I"
+      "x": "6WHRaKATzCJW4o9EJdFPMZkALWiOLzSKKEZ1SVr1sJE",
+      "y": "MZyPuyXcD9-P8BcitEF5d0dY47fj8DPobgLN-UCSDrQ"
     }
   }],
   "authentication": ["did:web:ies.marichi.energy#key-1"],
